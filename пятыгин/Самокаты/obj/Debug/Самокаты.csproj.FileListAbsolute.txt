@@ -1,0 +1,15 @@
+C:\Users\0_206_16\source\repos\Самокаты\bin\Debug\Самокаты.exe.config
+C:\Users\0_206_16\source\repos\Самокаты\bin\Debug\Самокаты.exe
+C:\Users\0_206_16\source\repos\Самокаты\bin\Debug\Самокаты.pdb
+C:\Users\0_206_16\source\repos\Самокаты\obj\Debug\Самокаты.csproj.AssemblyReference.cache
+C:\Users\0_206_16\source\repos\Самокаты\obj\Debug\MainWindow.g.cs
+C:\Users\0_206_16\source\repos\Самокаты\obj\Debug\App.g.cs
+C:\Users\0_206_16\source\repos\Самокаты\obj\Debug\Самокаты_MarkupCompile.cache
+C:\Users\0_206_16\source\repos\Самокаты\obj\Debug\Самокаты_MarkupCompile.lref
+C:\Users\0_206_16\source\repos\Самокаты\obj\Debug\MainWindow.baml
+C:\Users\0_206_16\source\repos\Самокаты\obj\Debug\Самокаты.g.resources
+C:\Users\0_206_16\source\repos\Самокаты\obj\Debug\Самокаты.Properties.Resources.resources
+C:\Users\0_206_16\source\repos\Самокаты\obj\Debug\Самокаты.csproj.GenerateResource.cache
+C:\Users\0_206_16\source\repos\Самокаты\obj\Debug\Самокаты.csproj.CoreCompileInputs.cache
+C:\Users\0_206_16\source\repos\Самокаты\obj\Debug\Самокаты.exe
+C:\Users\0_206_16\source\repos\Самокаты\obj\Debug\Самокаты.pdb

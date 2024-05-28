@@ -1,0 +1,35 @@
+﻿<Window x:Class="Самокаты.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Самокаты"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0">
+            <Label Content="Scooter Name:" Margin="10"/>
+            <TextBox x:Name="txtScooterName" Margin="10"/>
+            <Label Content="Manufacturer Description:" Margin="10"/>
+            <TextBox x:Name="txtDescription" Margin="10"/>
+            <Label Content="Rental Price Hour:" Margin="10"/>
+            <TextBox x:Name="txtPriceHour" Margin="10"/>
+            <Label Content="Rental Price Day:" Margin="10"/>
+            <TextBox x:Name="txtPriceDay" Margin="10"/>
+            <Button Content="Add/Update Scooter" Click="OnAddUpdateScooter" Margin="10"/>
+        </StackPanel>
+        <DataGrid Grid.Row="1" x:Name="dgScooters" AutoGenerateColumns="False" Margin="10">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{x:Null}" Header="Scooter ID" Width="SizeToHeader"/>
+                <DataGridTextColumn Binding="{x:Null}" Header="Scooter Name" Width="SizeToHeader"/>
+                <DataGridTextColumn Binding="{x:Null}" Header="Description" Width="SizeToHeader"/>
+                <DataGridTextColumn Binding="{x:Null}" Header="Price Hour" Width="SizeToHeader"/>
+                <DataGridTextColumn Binding="{x:Null}" Header="Price Day" Width="SizeToHeader"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>
